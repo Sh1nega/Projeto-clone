@@ -221,10 +221,10 @@ aside a:hover{
 footer{
     background-color: var(--purplegrad1);
     color: var(--texto-more);
-    text-align: top;
+    text-align: center;
     font-size: 0.8em;
     font-weight: bold;
-    padding: 50px;
+    padding: 25px;
 }
 
 footer a{
@@ -236,4 +236,10 @@ footer a{
 @keyframes anim {
   from {color: var(--topicos);}
   to {color: var(--hover);}
+}
+
+footer img.social{
+    width: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
 }
