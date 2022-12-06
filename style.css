@@ -13,6 +13,7 @@
     --box-more:#1D1C40;
     --fundo:#1D1C40;
     --hover:#ff0044;
+    --hover2:#00ff4c;
     --fonte-padrao: 'Open Sans', Arial;
 }
 
@@ -234,8 +235,8 @@ footer a{
 }
 
 @keyframes anim {
-  from {color: var(--topicos);}
-  to {color: var(--hover);}
+  from {color: var(--hover);}
+  to {color: var(--hover2);}
 }
 
 footer img.social{
